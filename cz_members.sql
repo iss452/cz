@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `cz_members4` (
 
 INSERT INTO `cz_members4` (`id`, `firstName`, `lastName`, `chineseName`, `sign`, `element`, `compatible`, `YinYang`, `personality`, `image`, `userName`, `passwordHash`, `passwordSalt`) VALUES
 (3, 'Joe', 'Schmoe', '', '', '', '', '', '', '', 'dkokoska+joe@maine.edu', 'a3004aee382bc9cc0fce9bc3afa26d11', '7a13d7618a9df90bcc4f486792403c4f'),
-(93, 'Some', 'Student', 'MyPassword1', NULL, NULL, NULL, NULL, NULL, NULL, 'some.student@maine.edu', 'd86c5f5a4d9f434f94a83c38b30e6d59', '9ffc7a03c1959674fa8c0a7369460097');
+(93, 'Some', 'Student', '', NULL, NULL, NULL, NULL, NULL, NULL, 'some.student@maine.edu', 'd86c5f5a4d9f434f94a83c38b30e6d59', '9ffc7a03c1959674fa8c0a7369460097');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
